@@ -2345,3 +2345,70 @@
 2017-10-24 [20:46:46] [Server thread/INFO]: Unloading level "world"
 2017-10-24 [20:46:46] [Server thread/INFO]: Unloading level "lobby"
 2017-10-24 [20:46:51] [Server thread/INFO]: Stopping other threads
+2017-10-24 [20:47:42] [Server thread/INFO]: Loading pocketmine.yml...
+2017-10-24 [20:47:42] [Server thread/INFO]: Loading server properties...
+2017-10-24 [20:47:42] [Server thread/INFO]: Selected English (eng) as the base language
+2017-10-24 [20:47:42] [Server thread/INFO]: Starting Minecraft: PE server version v1.2.0.81
+2017-10-24 [20:47:42] [Server thread/INFO]: Starting remote control listener
+2017-10-24 [20:47:42] [Server thread/INFO]: RCON running on 0.0.0.0:19132
+2017-10-24 [20:47:42] [Server thread/WARNING]: Online mode is disabled. The server will not verify that players are authenticated to Xbox Live.
+2017-10-24 [20:47:42] [Server thread/WARNING]: While this makes it possible to connect without internet access, it also allows hackers to connect with any username they choose.
+2017-10-24 [20:47:42] [Server thread/WARNING]: To enable authentication, set "online-mode" to "true" in server.properties.
+2017-10-24 [20:47:42] [Server thread/INFO]: Opening server on 0.0.0.0:19132
+2017-10-24 [20:47:42] [Server thread/INFO]: This server is running PocketMine-MP version 1.7dev-83 "[REDACTED]" (API 3.0.0-ALPHA8)
+2017-10-24 [20:47:42] [Server thread/INFO]: PocketMine-MP is distributed under the LGPL License
+2017-10-24 [20:47:42] [Server thread/INFO]: Loading recipes...
+2017-10-24 [20:47:42] [Server thread/INFO]: Loading resource packs...
+2017-10-24 [20:47:42] [Server thread/ERROR]: Could not load plugin 'MOTDShuffle': Incompatible API version (plugin requires one of: 3.0.0-ALPHA9)
+2017-10-24 [20:47:42] [Server thread/ERROR]: Could not load plugin 'MyAuth': Incompatible API version (plugin requires one of: 3.0.0-ALPHA7)
+2017-10-24 [20:47:42] [Server thread/INFO]: Loading WorldProtect v2.3.5-4
+2017-10-24 [20:47:42] [Server thread/INFO]: Loading BuycraftPM v0.5.0
+2017-10-24 [20:47:42] [Server thread/INFO]: Loading AllSigns v1.0.4
+2017-10-24 [20:47:42] [Server thread/INFO]: Loading SimpleAuth v2.1.2-2
+2017-10-24 [20:47:42] [Server thread/INFO]: Loading EconomyAPI v5.7.1-3
+2017-10-24 [20:47:42] [Server thread/INFO]: Loading HotBlock v1.0.5
+2017-10-24 [20:47:42] [Server thread/INFO]: Loading Worlds v1.0.12
+2017-10-24 [20:47:42] [Server thread/INFO]: Enabling WorldProtect v2.3.5-4
+2017-10-24 [20:47:42] [Server thread/INFO]: [WorldProtect] Enabled 4 features
+2017-10-24 [20:47:42] [Server thread/INFO]: Enabling SimpleAuth v2.1.2-2
+2017-10-24 [20:47:42] [Server thread/INFO]: [SimpleAuth] Everything loaded!
+2017-10-24 [20:47:42] [Server thread/INFO]: Preparing level "world"
+2017-10-24 [20:47:42] [Server thread/INFO]: Enabling BuycraftPM v0.5.0
+2017-10-24 [20:47:43] [Server thread/INFO]: Enabling AllSigns v1.0.4
+2017-10-24 [20:47:43] [Server thread/INFO]: Enabling EconomyAPI v5.7.1-3
+2017-10-24 [20:47:44] [Server thread/NOTICE]: [EconomyAPI] 
+2017-10-24 [20:47:44] [Server thread/NOTICE]: [EconomyAPI] Database provider was set to: Yaml
+2017-10-24 [20:47:44] [Server thread/INFO]: Enabling HotBlock v1.0.5
+2017-10-24 [20:47:44] [Server thread/INFO]: Enabling Worlds v1.0.12
+2017-10-24 [20:47:44] [Server thread/INFO]: Starting GS4 status listener
+2017-10-24 [20:47:44] [Server thread/INFO]: Setting query port to 19132
+2017-10-24 [20:47:44] [Server thread/INFO]: Query running on 0.0.0.0:19132
+2017-10-24 [20:47:44] [Server thread/INFO]: Default game type: Survival Mode
+2017-10-24 [20:47:44] [Server thread/INFO]: Done (2.116s)! For help, type "help" or "?"
+2017-10-24 [20:47:44] [Server thread/INFO]: [BuycraftPM] Found 0 due player(s).
+2017-10-24 [20:48:27] [Server thread/INFO]: Enzotech2[/10.0.30.139:65158] logged in with entity id 1 at (world, 255, 70, 255)
+2017-10-24 [20:48:28] [Server thread/INFO]: Enzotech2 joined the game
+2017-10-24 [20:48:29] [Server thread/WARNING]: Enzotech2 moved wrongly!
+2017-10-24 [20:48:42] [Server thread/INFO]: Preparing level "lobby"
+2017-10-24 [20:49:43] [Server thread/INFO]: Preparing level "factions"
+2017-10-24 [20:49:43] [Server thread/NOTICE]: Spawn terrain for level "factions" is being generated in the background
+2017-10-24 [20:50:42] [Server thread/INFO]: [Enzotech2: Set own game mode to Creative Mode]
+2017-10-24 [20:55:31] [Server thread/INFO]: Preparing level "pvp"
+2017-10-24 [20:56:03] [Server thread/INFO]: Preparing level "HotBlock"
+2017-10-24 [20:56:09] [Server thread/INFO]: [Enzotech2: Set the world spawn point to (872, 4, -678)]
+2017-10-24 [20:59:26] [Server thread/INFO]: Enzotech2 left the game
+2017-10-24 [20:59:26] [Server thread/INFO]: Enzotech2[/10.0.30.139:65158] logged out due to client disconnect
+2017-10-24 [21:00:11] [Server thread/INFO]: [CONSOLE: Stopping the server]
+2017-10-24 [21:00:11] [Server thread/INFO]: Disabling WorldProtect v2.3.5-4
+2017-10-24 [21:00:11] [Server thread/INFO]: Disabling BuycraftPM v0.5.0
+2017-10-24 [21:00:11] [Server thread/INFO]: Disabling AllSigns v1.0.4
+2017-10-24 [21:00:11] [Server thread/INFO]: Disabling SimpleAuth v2.1.2-2
+2017-10-24 [21:00:11] [Server thread/INFO]: Disabling EconomyAPI v5.7.1-3
+2017-10-24 [21:00:11] [Server thread/INFO]: Disabling HotBlock v1.0.5
+2017-10-24 [21:00:11] [Server thread/INFO]: Disabling Worlds v1.0.12
+2017-10-24 [21:00:11] [Server thread/INFO]: Unloading level "world"
+2017-10-24 [21:00:11] [Server thread/INFO]: Unloading level "lobby"
+2017-10-24 [21:00:11] [Server thread/INFO]: Unloading level "factions"
+2017-10-24 [21:00:11] [Server thread/INFO]: Unloading level "pvp"
+2017-10-24 [21:00:11] [Server thread/INFO]: Unloading level "HotBlock"
+2017-10-24 [21:00:16] [Server thread/INFO]: Stopping other threads
