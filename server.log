@@ -2274,3 +2274,74 @@
 2017-10-24 [14:13:15] [Server thread/INFO]: Unloading level "lobby"
 2017-10-24 [14:13:15] [Server thread/INFO]: Unloading level "HotBlock"
 2017-10-24 [14:13:20] [Server thread/INFO]: Stopping other threads
+2017-10-24 [20:36:05] [Server thread/INFO]: Loading pocketmine.yml...
+2017-10-24 [20:36:05] [Server thread/INFO]: Loading server properties...
+2017-10-24 [20:36:05] [Server thread/INFO]: Selected English (eng) as the base language
+2017-10-24 [20:36:05] [Server thread/INFO]: Starting Minecraft: PE server version v1.2.0.81
+2017-10-24 [20:36:05] [Server thread/INFO]: Starting remote control listener
+2017-10-24 [20:36:05] [Server thread/INFO]: RCON running on 0.0.0.0:19132
+2017-10-24 [20:36:05] [Server thread/WARNING]: Online mode is disabled. The server will not verify that players are authenticated to Xbox Live.
+2017-10-24 [20:36:05] [Server thread/WARNING]: While this makes it possible to connect without internet access, it also allows hackers to connect with any username they choose.
+2017-10-24 [20:36:05] [Server thread/WARNING]: To enable authentication, set "online-mode" to "true" in server.properties.
+2017-10-24 [20:36:05] [Server thread/INFO]: Opening server on 0.0.0.0:19132
+2017-10-24 [20:36:05] [Server thread/INFO]: This server is running PocketMine-MP version 1.7dev-83 "[REDACTED]" (API 3.0.0-ALPHA8)
+2017-10-24 [20:36:05] [Server thread/INFO]: PocketMine-MP is distributed under the LGPL License
+2017-10-24 [20:36:05] [Server thread/INFO]: Loading recipes...
+2017-10-24 [20:36:05] [Server thread/INFO]: Loading resource packs...
+2017-10-24 [20:36:05] [Server thread/ERROR]: Could not load plugin 'MOTDShuffle': Incompatible API version (plugin requires one of: 3.0.0-ALPHA9)
+2017-10-24 [20:36:05] [Server thread/ERROR]: Could not load plugin 'MyAuth': Incompatible API version (plugin requires one of: 3.0.0-ALPHA7)
+2017-10-24 [20:36:05] [Server thread/INFO]: Loading WorldProtect v2.3.5-4
+2017-10-24 [20:36:05] [Server thread/INFO]: Loading BuycraftPM v0.5.0
+2017-10-24 [20:36:05] [Server thread/INFO]: Loading AllSigns v1.0.4
+2017-10-24 [20:36:05] [Server thread/INFO]: Loading SimpleAuth v2.1.2-2
+2017-10-24 [20:36:05] [Server thread/INFO]: Loading EconomyAPI v5.7.1-3
+2017-10-24 [20:36:05] [Server thread/INFO]: Loading HotBlock v1.0.5
+2017-10-24 [20:36:05] [Server thread/INFO]: Loading Worlds v1.0.12
+2017-10-24 [20:36:05] [Server thread/INFO]: Enabling WorldProtect v2.3.5-4
+2017-10-24 [20:36:06] [Server thread/INFO]: [WorldProtect] Enabled 4 features
+2017-10-24 [20:36:06] [Server thread/INFO]: Enabling SimpleAuth v2.1.2-2
+2017-10-24 [20:36:06] [Server thread/INFO]: [SimpleAuth] Everything loaded!
+2017-10-24 [20:36:06] [Server thread/INFO]: Preparing level "world"
+2017-10-24 [20:36:06] [Server thread/INFO]: Enabling BuycraftPM v0.5.0
+2017-10-24 [20:36:11] [Server thread/WARNING]: [BuycraftPM] Unable to verify information
+2017-10-24 [20:36:11] [Server thread/CRITICAL]: Exception: "cURL request has failed: Resolving timed out after 5514 milliseconds" (EXCEPTION) in "BuycraftPM.phar/src/Buycraft/PocketMine/PluginApi" at line 41
+2017-10-24 [20:36:11] [Server thread/DEBUG]: #0 BuycraftPM.phar/src/Buycraft/PocketMine/BuycraftPlugin(71): Buycraft\PocketMine\PluginApi->basicGet(string /information)
+2017-10-24 [20:36:11] [Server thread/DEBUG]: #1 BuycraftPM.phar/src/Buycraft/PocketMine/BuycraftPlugin(54): Buycraft\PocketMine\BuycraftPlugin->verifyInformation(Buycraft\PocketMine\PluginApi object)
+2017-10-24 [20:36:11] [Server thread/DEBUG]: #2 src/pocketmine/plugin/PluginBase(90): Buycraft\PocketMine\BuycraftPlugin->onEnable()
+2017-10-24 [20:36:11] [Server thread/DEBUG]: #3 src/pocketmine/plugin/PharPluginLoader(122): pocketmine\plugin\PluginBase->setEnabled(boolean 1)
+2017-10-24 [20:36:11] [Server thread/DEBUG]: #4 src/pocketmine/plugin/PluginManager(610): pocketmine\plugin\PharPluginLoader->enablePlugin(Buycraft\PocketMine\BuycraftPlugin object)
+2017-10-24 [20:36:11] [Server thread/DEBUG]: #5 src/pocketmine/Server(1957): pocketmine\plugin\PluginManager->enablePlugin(Buycraft\PocketMine\BuycraftPlugin object)
+2017-10-24 [20:36:11] [Server thread/DEBUG]: #6 src/pocketmine/Server(1943): pocketmine\Server->enablePlugin(Buycraft\PocketMine\BuycraftPlugin object)
+2017-10-24 [20:36:11] [Server thread/DEBUG]: #7 src/pocketmine/Server(1729): pocketmine\Server->enablePlugins(integer 1)
+2017-10-24 [20:36:11] [Server thread/DEBUG]: #8 src/pocketmine/PocketMine(553): pocketmine\Server->__construct(BaseClassLoader object, pocketmine\utils\MainLogger object, string phar:///home/enzotech2/GitHub/PixelCraftPE/PocketMine-MP.phar/, string /home/enzotech2/GitHub/PixelCraftPE/, string /home/enzotech2/GitHub/PixelCraftPE/plugins/)
+2017-10-24 [20:36:11] [Server thread/DEBUG]: #9 /home/enzotech2/GitHub/PixelCraftPE/PocketMine-MP.phar(1): require(string phar:///home/enzotech2/GitHub/PixelCraftPE/PocketMine-MP.phar/src/pocketmine/PocketMine.php)
+2017-10-24 [20:36:11] [Server thread/INFO]: Enabling AllSigns v1.0.4
+2017-10-24 [20:36:11] [Server thread/INFO]: Enabling EconomyAPI v5.7.1-3
+2017-10-24 [20:36:12] [Server thread/NOTICE]: [EconomyAPI] 
+2017-10-24 [20:36:12] [Server thread/NOTICE]: [EconomyAPI] Database provider was set to: Yaml
+2017-10-24 [20:36:12] [Server thread/INFO]: Enabling HotBlock v1.0.5
+2017-10-24 [20:36:12] [Server thread/INFO]: Enabling Worlds v1.0.12
+2017-10-24 [20:36:12] [Server thread/INFO]: Starting GS4 status listener
+2017-10-24 [20:36:12] [Server thread/INFO]: Setting query port to 19132
+2017-10-24 [20:36:12] [Server thread/INFO]: Query running on 0.0.0.0:19132
+2017-10-24 [20:36:12] [Server thread/INFO]: Default game type: Survival Mode
+2017-10-24 [20:36:12] [Server thread/INFO]: Done (6.603s)! For help, type "help" or "?"
+2017-10-24 [20:37:08] [Server thread/INFO]: Enzotech2[/10.0.30.139:65158] logged in with entity id 1 at (world, 255, 70, 255)
+2017-10-24 [20:37:10] [Server thread/INFO]: Enzotech2 joined the game
+2017-10-24 [20:37:11] [Server thread/WARNING]: Enzotech2 moved wrongly!
+2017-10-24 [20:37:31] [Server thread/INFO]: [Enzotech2: Set own game mode to Creative Mode]
+2017-10-24 [20:38:37] [Server thread/INFO]: Preparing level "lobby"
+2017-10-24 [20:43:34] [Server thread/INFO]: [Enzotech2: Set the time to 14000]
+2017-10-24 [20:45:25] [Server thread/INFO]: Enzotech2 left the game
+2017-10-24 [20:45:25] [Server thread/INFO]: Enzotech2[/10.0.30.139:65158] logged out due to client disconnect
+2017-10-24 [20:46:46] [Server thread/INFO]: [CONSOLE: Stopping the server]
+2017-10-24 [20:46:46] [Server thread/INFO]: Disabling WorldProtect v2.3.5-4
+2017-10-24 [20:46:46] [Server thread/INFO]: Disabling BuycraftPM v0.5.0
+2017-10-24 [20:46:46] [Server thread/INFO]: Disabling AllSigns v1.0.4
+2017-10-24 [20:46:46] [Server thread/INFO]: Disabling SimpleAuth v2.1.2-2
+2017-10-24 [20:46:46] [Server thread/INFO]: Disabling EconomyAPI v5.7.1-3
+2017-10-24 [20:46:46] [Server thread/INFO]: Disabling HotBlock v1.0.5
+2017-10-24 [20:46:46] [Server thread/INFO]: Disabling Worlds v1.0.12
+2017-10-24 [20:46:46] [Server thread/INFO]: Unloading level "world"
+2017-10-24 [20:46:46] [Server thread/INFO]: Unloading level "lobby"
+2017-10-24 [20:46:51] [Server thread/INFO]: Stopping other threads
