@@ -1,0 +1,13 @@
+#  _   _       _   ____  _            _
+# | | | | ___ | |_| __ )| | ___   ___| | __
+# | |_| |/ _ \| __|  _ \| |/ _ \ / __| |/ /
+# |  _  | (_) | |_| |_) | | (_) | (__|   <
+# |_| |_|\___/ \__|____/|_|\___/ \___|_|\_\
+#
+# (C) 2017 by surva network | https://github.com/survanetwork
+
+# World of the game
+world: "HotBlock"
+
+# How many players must be online that the block is active (prevent that one player is getting coins alone)
+players: 2
